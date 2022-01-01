@@ -1,4 +1,14 @@
-# Advanced Sample Hardhat Project
+# Hardhat Template
+For blockchain developers to organize their CI workflow. The CI does the following
+  1. Compile Project.
+  2. Parse all unit test cases.
+  3. Make a coverage test.
+  4. Linting the smart contracts
+  5. Audit smart-contract using `slither`
+
+These tasks trigger once you push a commit on the `main` branch or create a pull request to the `main` branch. Feel free to edit the workflow from `.github/workflows/hardhat.yml`
+
+# Hardhat Template Usage
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
 
