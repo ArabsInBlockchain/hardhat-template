@@ -8,6 +8,9 @@ For blockchain developers to organize their CI workflow. The CI does the followi
 
 These tasks trigger once you push a commit on the `main` branch or create a pull request to the `main` branch. Feel free to edit the workflow from `.github/workflows/hardhat.yml`
 
+# How To Contribute
+We created this template for blockchain developers to start working on their ideas ASAP. If you want to add any package, new network, or code to improve the template, feel free to submit a PR. and don't forget to check our [contributions guideline](https://github.com/ArabsInBlockchain/hardhat-template/blob/main/CONTRIBUTING.md).
+
 # Hardhat Template Usage
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
