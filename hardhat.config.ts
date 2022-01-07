@@ -29,6 +29,14 @@ const config: HardhatUserConfig = {
       url: process.env.ROPSTEN_URL || '',
       accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
+    
+    rinkeby: {
+      url: process.env.RINKEBY_RPC_URL,
+      accounts: {
+        mnemonic: process.env.MNEMONIC,
+      },
+      saveDeployments: true,
+    },
   },
   gasReporter: {
     enabled: process.env.REPORT_GAS !== undefined,
